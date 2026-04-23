@@ -1,0 +1,33 @@
+.judul {
+    font-family: fantasy;
+    color: darkred;
+    text-align: center;
+    text-size: 20px;
+}
+
+.bg {
+    background-color: #fee8f3;
+    opacity: 0.8;
+    background-image:  radial-gradient(#ffa7a7 0.5px, transparent 0.5px), radial-gradient(#ffa7a7 0.5px, #fee8f3 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+}
+
+.p1 {
+    text-align: center;
+    color: darkred;
+}
+
+.margin {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.image {
+    text-align: center;
+    max-width: 200px;
+    width: fit-content;
+    height: auto;
+    border-radius: 6px;
+}
