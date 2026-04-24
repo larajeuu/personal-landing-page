@@ -1,5 +1,4 @@
 .judul {
-    font-family: fantasy;
     color: darkred;
     text-align: center;
     text-size: 20px;
@@ -14,20 +13,35 @@
 }
 
 .p1 {
+    text-align: left;
+    color: darkred;
+    gap: 30px;
+}
+
+.p2 {
     text-align: center;
     color: darkred;
 }
 
 .margin {
-    margin-left: auto;
-    margin-right: auto;
-    width: fit-content;
+    display: flex;
+    gap: 30px;
+}
+
+.img {
+    padding: 10px 10px;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    margin: 20px auto;
+    width: 40px;
+    height: 40px;
 }
 
 .image {
     text-align: center;
-    max-width: 200px;
-    width: fit-content;
-    height: auto;
-    border-radius: 6px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
 }
